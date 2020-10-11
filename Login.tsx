@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme: Theme) =>
     container: {
       display: 'flex',
       flexWrap: 'wrap',
-      width: 400,
+      width: 350,
       margin: `${theme.spacing(0)} auto`
     },
     loginBtn: {
@@ -25,10 +25,10 @@ const useStyles = makeStyles((theme: Theme) =>
     header: {
       textAlign: 'center',
       background: '##438D80',
-      color: '#fff'
+      color: '#000'
     },
     card: {
-      marginTop: theme.spacing(10)
+      marginTop: theme.spacing(11)
     }
   })
 );
@@ -168,8 +168,8 @@ const Login = () => {
             <TextField
               error={state.isError}
               fullWidth
-              id="maya"
-              type="maya"
+              id="hello"
+              type="hello"
               label="Password"
               placeholder="Password"
               margin="normal"
