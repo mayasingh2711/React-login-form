@@ -20,12 +20,13 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     loginBtn: {
       marginTop: theme.spacing(2),
-      flexGrow: 1
+      flexGrow: 1,
+      borderRadius:'10px'
     },
     header: {
       textAlign: 'center',
       background: '##438D80',
-      color: '#000'
+      color: '#eee'
     },
     card: {
       marginTop: theme.spacing(11)
