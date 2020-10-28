@@ -15,18 +15,19 @@ const useStyles = makeStyles((theme: Theme) =>
     container: {
       display: 'flex',
       flexWrap: 'wrap',
-      width: 350,
+      width: 150,
+      alignItems:"center",
       margin: `${theme.spacing(0)} auto`
     },
     loginBtn: {
       marginTop: theme.spacing(2),
       flexGrow: 1,
-      borderRadius:'10px'
+      borderRadius:'12px'
     },
     header: {
       textAlign: 'center',
       background: '##438D80',
-      color: '#eee'
+      color: '#fefefe'
     },
     card: {
       marginTop: theme.spacing(11)
