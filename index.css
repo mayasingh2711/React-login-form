@@ -11,5 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', Courier,
     monospace;
   font-style: normal;
+  font-weight:400;
+  letter-spacing:2px;
+  line-height:40px;
   
 }
